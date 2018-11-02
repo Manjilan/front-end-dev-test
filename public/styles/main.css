@@ -10,6 +10,15 @@ h2{
   text-transform: uppercase;
   text-align: center;
 }
+.gradient-button{
+  background: linear-gradient(to right, #F36819 , #F7931D);
+  height: 40px;
+  width: 215px;
+  border-radius: 5px;
+  font: 16px Roboto;
+  letter-spacing: 2px;
+  border: none;
+}
 /*--------Nav Bar--------  */
 #logo{
   height: 52px;
@@ -67,14 +76,6 @@ header button{
   height: 254px;
   padding: 5% 10%;
 }
-.gradient-button{
-  background: linear-gradient(to right, #F36819 , #F7931D);
-  height: 40px;
-  width: 215px;
-  border-radius: 5px;
-  font: 16px Roboto;
-  letter-spacing: 2px;
-}
 #slanted p{
   font-size: 30px;
   width: 90%;
@@ -98,6 +99,7 @@ span{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .statistics div{
   width: 20%;
@@ -124,9 +126,17 @@ h3{
 .checkerboard{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 5% 0;
 }
 .checkerboard div{
   width: 30%;
+}
+.checkerboard div:first-child{
+    margin: 0 auto;
+}
+.checkerboard div:last-child{
+  margin-right: 18%;
 }
 .checkerboard img{
   height: 350px;
@@ -141,4 +151,17 @@ h3{
   color: #F7931D;
   text-align: left;
   margin: 0 auto;
+}
+
+/* -----------Modal--------*/
+.modal-content{
+  width: 40%;
+  margin: 0 auto;
+}
+form, form div{
+  display: flex;
+  flex-direction: column;
+}
+.half-width{
+  width: 40%;
 }
