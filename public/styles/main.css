@@ -24,7 +24,7 @@ nav{
 /*--------Header--------  */
 header{
   height: 509px;
-  background: linear-gradient(to right, rgb(243, 104, 25, 0.3) , rgb(0, 0, 0, 0.3)), url("../assets/hero-img.jpg");
+  background: linear-gradient(to right, rgba(243, 104, 25, 0.3) , rgba(0, 0, 0, 0.3)), url("../assets/hero-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
