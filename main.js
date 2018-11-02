@@ -9,8 +9,8 @@ app.use(bodyParser.urlencoded({ extended: true, }));
 app.use(express.static('public'));
 
 // set Models
-// var db = require('./models'),
-// Message = db.Message;
+var db = require('./models'),
+Message = db.Message;
 
 app.get("/", function(req, res){
   res.sendfile('views/index.html');
