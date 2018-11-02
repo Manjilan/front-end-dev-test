@@ -1,8 +1,16 @@
+/*--------Whole Document--------  */
 body{
   font: 14px Roboto;
   box-sizing: border-box;
   margin: 0 auto;
 }
+h2{
+  font: 28px Roboto;
+  color: #283647;
+  text-transform: uppercase;
+  text-align: center;
+}
+/*--------Nav Bar--------  */
 #logo{
   height: 52px;
   display: block;
@@ -13,6 +21,7 @@ nav{
   height: 60px;
 }
 
+/*--------Header--------  */
 header{
   height: 509px;
   background: linear-gradient(to right, rgb(243, 104, 25, 0.3) , rgb(0, 0, 0, 0.3)), url("../assets/hero-img.jpg");
@@ -32,21 +41,8 @@ h1{
 header button{
   margin-left: 251px;
 }
-#slanted{
-  background: url("../assets/slanted-gradient-background.svg");
-  background-repeat: no-repeat;
-  color: white;
-  height: 254px;
-  padding: 5% 10%;
-}
-.gradient-button{
-  background: linear-gradient(to right, #F36819 , #F7931D);
-  height: 40px;
-  width: 215px;
-  border-radius: 5px;
-  font: 16px Roboto;
-  letter-spacing: 2px;
-}
+
+/*--------Notes Section--------  */
 .notes{
   display: flex;
   flex-wrap: wrap;
@@ -62,18 +58,87 @@ header button{
 .notes div img{
   margin: 0 10%;
 }
+
+/*--------Slanted Section--------  */
+#slanted{
+  background: url("../assets/slanted-gradient-background.svg");
+  background-repeat: no-repeat;
+  color: white;
+  height: 254px;
+  padding: 5% 10%;
+}
+.gradient-button{
+  background: linear-gradient(to right, #F36819 , #F7931D);
+  height: 40px;
+  width: 215px;
+  border-radius: 5px;
+  font: 16px Roboto;
+  letter-spacing: 2px;
+}
 #slanted p{
   font-size: 30px;
   width: 90%;
   text-align: center;
   margin: 3% auto;
 }
-h2{
-  font: 28px Roboto;
-  color: #283647;
-  text-transform: uppercase;
-}
+
+/*--------Statistics Section--------  */
 span{
   font-weight: bold;
   color: #F36819;
+}
+.statistics-block{
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  margin: 0 auto 10%;
+  width: 70%;
+}
+.statistics, .details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.statistics div{
+  width: 20%;
+}
+.details button{
+  margin-right: 10%;
+}
+.details p{
+  width: 50%;
+}
+h3{
+  font: bold 55px Roboto;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 30% 0 10%;
+}
+.statistics p{
+  color: #F36819;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+/* -----------Checkerboard Section --------*/
+.checkerboard{
+  display: flex;
+  justify-content: space-between;
+}
+.checkerboard div{
+  width: 30%;
+}
+.checkerboard img{
+  height: 350px;
+  width: 705px;
+}
+.checkerboard h2{
+  color: #F36819;
+  text-align: left;
+}
+.checkerboard h3{
+  font: 20px Roboto;
+  color: #F7931D;
+  text-align: left;
+  margin: 0 auto;
 }

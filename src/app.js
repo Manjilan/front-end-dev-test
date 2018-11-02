@@ -1,4 +1,4 @@
-import Home from '../index.html'
-import Styles from '../styles/main.css'
+import Home from '../views/index.html'
+import Styles from '../public/styles/main.css'
 
 console.log("working")
