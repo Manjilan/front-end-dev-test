@@ -1,3 +1,79 @@
-h1 {
-  font-size: 35px
+body{
+  font: 14px Roboto;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+#logo{
+  height: 52px;
+  display: block;
+  margin: 3px auto;
+}
+nav{
+  background: #1676DD;
+  height: 60px;
+}
+
+header{
+  height: 509px;
+  background: linear-gradient(to right, rgb(243, 104, 25, 0.3) , rgb(0, 0, 0, 0.3)), url("../assets/hero-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  font: bold 48px Roboto;
+  color: white;
+  /* position: relative;
+  top: 254px;
+  left: 352px; */
+  padding: 255px 0 0 251px;
+  margin: 0;
+}
+header button{
+  margin-left: 251px;
+}
+#slanted{
+  background: url("../assets/slanted-gradient-background.svg");
+  background-repeat: no-repeat;
+  color: white;
+  height: 254px;
+  padding: 5% 10%;
+}
+.gradient-button{
+  background: linear-gradient(to right, #F36819 , #F7931D);
+  height: 40px;
+  width: 215px;
+  border-radius: 5px;
+  font: 16px Roboto;
+  letter-spacing: 2px;
+}
+.notes{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% auto 2%;
+  width: 70%;
+}
+.notes div{
+  width:40%;
+  margin: 2% auto;
+  display: flex;
+  padding: 0 2%;
+}
+.notes div img{
+  margin: 0 10%;
+}
+#slanted p{
+  font-size: 30px;
+  width: 90%;
+  text-align: center;
+  margin: 3% auto;
+}
+h2{
+  font: 28px Roboto;
+  color: #283647;
+  text-transform: uppercase;
+}
+span{
+  font-weight: bold;
+  color: #F36819;
 }
